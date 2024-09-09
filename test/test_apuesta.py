@@ -23,12 +23,12 @@ def test_ponerFicha():
     
     a = Apuesta()
     a.ponerFicha(2)
-    assert(a.fichas == 2)
+    assert(a.fichas == 2) 
 
 
 def test_ponerFichaVarias():
     a = Apuesta()
-    a.ponerFicha(2)
+    a.ponerFicha(2) 
     a.ponerFicha(3)
     assert(a.fichas == 5)
     
